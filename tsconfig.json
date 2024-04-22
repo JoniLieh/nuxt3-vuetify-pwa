@@ -1,0 +1,41 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": [
+    "./.nuxt/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "types"
+    ],
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM",
+      "ES2022"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    
+    // "baseUrl": ".",
+    // "paths": {
+    //   "~/*": [
+    //     "./*"
+    //   ],
+    //   "@/*": [
+    //     "./*"
+    //   ]
+    // },
+    "useUnknownInCatchVariables": false,
+
+    // Enum usage // MoveDirection.bottom
+  //  "isolatedModules": false,
+  //  "verbatimModuleSyntax": false, 
+  },
+}
