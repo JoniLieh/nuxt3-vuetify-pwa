@@ -19,14 +19,6 @@ onMounted(() => {
 	// TODO uncomment on prod
 	// theme.global.name.value = usePreferredDark() ? 'dark' : 'light'
 });
-
-
-useSeoMeta({
-	title: 'Fliegendes Klassenzimmer',
-	ogTitle: 'Fliegendes Klassenzimmer',
-	description: 'Fliegendes Klassenzimmer',
-	ogDescription: 'Fliegendes Klassenzimmer'
-})
 </script>
 
 <style lang="scss">
