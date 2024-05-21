@@ -1,7 +1,7 @@
 <template>
   <v-row align-content="center" justify="center">
     <v-col cols="12">
-      <layout-header>Filetaxi</layout-header>
+      <layout-header>MyApp</layout-header>
     </v-col>
 
     <v-col cols="12" lg="4" mg="6" sm="8">

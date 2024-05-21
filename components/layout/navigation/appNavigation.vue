@@ -7,7 +7,7 @@
         ></v-app-bar-nav-icon>
       </template>
 
-      <v-app-bar-title>Filetaxi</v-app-bar-title>
+      <v-app-bar-title>MyApp</v-app-bar-title>
 
       <v-spacer></v-spacer>
 
